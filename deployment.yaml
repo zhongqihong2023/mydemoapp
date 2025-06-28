@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: mydemoapp
-        image: mydemoapp:v1
-        imagePullPolicy: IfNotPresent
+        image: zhongqihong/mydemoapp:v4
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 ---
